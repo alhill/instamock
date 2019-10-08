@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto';
+    margin: 20px 0;
+}
+
+strong {
+    font-weight: 500;
+}
+
+#instagram {
+    width: 414px;
+    padding: 10px;
+}
+
+#datainput {
+    margin: 20px 0;
+}
+
+.borde {
+    border: 1px solid #cbcbcb;
+}
+
+.upperrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#thumb img,
+#thumb canvas {
+    border-radius: 1000px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center center;
+    margin-right: 10px;
+}
+
+.commentnowrap {
+    color: #666;
+}
+
+#mainimage img,
+#mainimage canvas {
+    width: calc(100% + 20px);
+    max-height: 500px;
+    object-fit: cover;
+    margin: 10px -10px;
+}
+
+.belowimagerow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sprite {
+    background-image: url("instasprites.png");
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.coreSpriteHeartOpen {
+    background-position: -439px -399px;
+}
+
+.coreSpriteComment {
+    background-position: -512px -430px;
+}
+
+.coreSpriteSend {
+    background-position: -413px -399px;
+}
+
+.coreSpriteSaveOpen {
+    background-position: -234px -479px;
+}
+
+.coreSpriteOptionsEllipsis {
+    background-position: -376px -375px;
+    transform: rotate(90deg) scale(1.2);
+    margin-bottom: -5px;
+}
