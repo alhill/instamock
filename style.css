@@ -20,6 +20,7 @@ strong {
     margin: 0 auto;
     background: white;
     color: black;
+    border-radius: 3px;
 }
 
 .instawrap {
@@ -28,8 +29,11 @@ strong {
     justify-content: space-between;
     padding: 20px;
     height: 85vh;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 4px;
+}
+
+#datainput{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px 0 0 4px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .2)
 }
 
@@ -199,6 +203,8 @@ input[type="text"].form-control, input[type="number"].form-control, input[type="
 }
 
 .scrollito {
+    padding: 20px 0;
     max-height: 85vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
